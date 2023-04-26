@@ -346,6 +346,7 @@ public class ServletUtil {
 			session.setAttribute(ServletUtil.SESSION_ATTR_USER, user);
 		    	accountCookie.setSecure(false);
 			return accountCookie;
+			
 		}
 		catch(SQLException e){
 			e.printStackTrace();
