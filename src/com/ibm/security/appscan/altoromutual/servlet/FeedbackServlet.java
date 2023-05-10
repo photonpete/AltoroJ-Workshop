@@ -30,7 +30,7 @@ import com.ibm.security.appscan.altoromutual.util.OperationsUtil;
 
 /**
  * Feedback submission servlet
- * @author Alexei
+ * @author Peter
  */
 public class FeedbackServlet extends HttpServlet {
 
